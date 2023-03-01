@@ -1,0 +1,70 @@
+﻿<Page x:Class="TestProject.View.Pages.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TestProject.View.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="883" 
+      d:DesignWidth="617">
+    <Border>
+        <Grid>
+            <Image Source="/images/MainPage.png"/>
+            <TextBlock Text="Навигация"
+                       HorizontalAlignment="Left"
+                       VerticalAlignment="Center"
+                       Margin="20 0 0 200"
+                       FontSize="58"
+                       FontFamily="Palatino Linotype"
+                       >
+                <TextBlock.Foreground>
+                    <SolidColorBrush Opacity="0.15" Color="Black"/>
+                </TextBlock.Foreground>
+            </TextBlock>
+            
+            <StackPanel>
+                <StackPanel Orientation="Vertical"
+                                    HorizontalAlignment="Stretch"
+                                    Margin="0 394 240 0">
+
+                    <Button Content="1"
+                                Background="Transparent"
+                                Foreground="White"
+                                BorderBrush="White"
+                                Margin="0 0 0 0"
+                                Width="340" Click="Button_Click"
+                                />
+                    <Button Content="2"
+                                Background="Transparent"
+                                Foreground="White"
+                                BorderBrush="White"
+                                Margin="0 10 0 0"
+                            Width="340">
+                        
+                    </Button>
+                    <Button Content="3"
+                                Background="Transparent"
+                                Foreground="White"
+                                BorderBrush="White"
+                                Margin="0 10 0 0"
+                            Width="340"/>
+                    <Button Content="4"
+                                Background="Transparent"
+                                Foreground="White"
+                                BorderBrush="White"
+                                Margin="0 10 0 0"
+                            Width="340"/>
+                    <Button Content="5"
+                                Background="Transparent"
+                                Foreground="White"
+                                BorderBrush="White"
+                                Margin="0 10 0 0"
+                            Width="340"/>
+                </StackPanel>
+
+
+            </StackPanel>
+        </Grid>
+    </Border>
+    
+</Page>
