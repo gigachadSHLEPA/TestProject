@@ -13,7 +13,9 @@
             <Image Source="/images/burzum.png"
                    Height="1250"/>
 
-            <Image Source="/images/1.png" Margin="572,94,127,337" 
+            <Image Source="/images/1.png" HorizontalAlignment="Right"
+                                VerticalAlignment="Top" Height="65" Width="239"
+                   Margin="0,100,211,0"
                        />
 
 
