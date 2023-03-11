@@ -13,13 +13,13 @@
             <Image Source="/images/burzum.png"
                    Height="1250"/>
 
-            <Image Source="/images/1.png" Margin="595,94,161,1080"
+            <Image Source="/images/1.png" Margin="572,94,127,337" 
                        />
 
 
             <StackPanel HorizontalAlignment="Center"
                                 VerticalAlignment="Top"
-                                Margin="0,240,0,0" RenderTransformOrigin="0.5,0.5" Height="310" Width="872">
+                                Margin="0,235,0,0" RenderTransformOrigin="0.5,0.5" Height="260" Width="872">
                 <StackPanel.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -30,6 +30,7 @@
                 </StackPanel.RenderTransform>
                 <StackPanel VerticalAlignment="Center"
                                     >
+
                     <TextBlock Text="Введите X:"
                                        FontSize="165"
                                        FontFamily="Palatino Linotype"
