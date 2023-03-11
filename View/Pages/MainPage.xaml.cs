@@ -31,5 +31,11 @@ namespace TestProject.View.Pages
         {
             TestCoreFR.MyCore?.Navigate(new AP1());
         }
+        void MediaElement_MediaEnded(object sender, EventArgs e)
+        {
+            MediaElement mediaElement = (MediaElement)sender;
+            mediaElement.Stop();
+            mediaElement.Play();
+        }
     }
 }

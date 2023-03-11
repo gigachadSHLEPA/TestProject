@@ -11,6 +11,7 @@
     <None Remove="Images\1.png" />
     <None Remove="Images\burzum.png" />
     <None Remove="Images\MainPage.png" />
+    <None Remove="video\GIGACHAD ГИГАЧАД.mp4" />
   </ItemGroup>
 
   <ItemGroup>
@@ -22,12 +23,12 @@
     <Resource Include="Images\1.png" />
     <Resource Include="Images\burzum.png" />
     <Resource Include="Images\MainPage.png" />
+    <Content Include="video\GIGACHAD ГИГАЧАД.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="video\GIGACHAD ГИГАЧАД.mp4">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
     <None Update="video\Video by Savehouse %2854+%29.mp4">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

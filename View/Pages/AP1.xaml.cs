@@ -65,4 +65,5 @@ namespace TestProject.View.Pages
             TestCoreFR.MyCore?.Navigate(new MainPage());
         }
     }
+    
 }

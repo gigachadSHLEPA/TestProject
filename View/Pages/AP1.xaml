@@ -26,7 +26,7 @@
 
             <StackPanel HorizontalAlignment="Center"
                                 VerticalAlignment="Top"
-                                Margin="0,235,0,0" RenderTransformOrigin="0.5,0.5" Height="260" Width="872">
+                                Margin="0,228,0,0" RenderTransformOrigin="0.5,0.5" Height="260" Width="872">
 
 
                 <StackPanel VerticalAlignment="Center"
@@ -42,8 +42,8 @@
                             <SolidColorBrush Opacity="0.70" Color="Black"/>
                         </TextBlock.Foreground>
                     </TextBlock>
-
-                    <TextBox x:Name="TbF2" Width="900" Height="35" Margin="0 0 0 0"/>
+                     
+                    <TextBox x:Name="TbF2" Width="900" Height="46" Margin="0 0 0 0" FontSize="30"/>
                 </StackPanel>
 
 

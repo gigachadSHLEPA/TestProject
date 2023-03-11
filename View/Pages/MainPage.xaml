@@ -11,65 +11,108 @@
     <Border Width="617"
             Height="883">
         <Grid>
-            <MediaElement Source="/video/GIGACHAD ГИГАЧАД.mp4" LoadedBehavior="Play" Stretch="Uniform"
+
+            <MediaElement Source="C:\Users\baki\source\repos\TestProject\video\GIGACHAD ГИГАЧАД.mp4" LoadedBehavior="Play" Stretch="Uniform"
                 HorizontalAlignment="Center"
                 VerticalAlignment="Center"
                 UnloadedBehavior="Manual"
                 Visibility="Visible"/>
-            <TextBlock Text="Навигация"
-                       HorizontalAlignment="Left"
-                       VerticalAlignment="Center"
-                       Margin="20 0 0 200"
-                       FontSize="58"
+            <MediaElement Name="myMediaElement" >
+                <MediaElement.Triggers>
+                    <EventTrigger RoutedEvent="MediaElement.Loaded">
+                        <EventTrigger.Actions>
+                            <BeginStoryboard>
+                                <Storyboard>
+                                    <MediaTimeline Source="C:\Users\baki\source\repos\TestProject\video\GIGACHAD ГИГАЧАД.mp4" Storyboard.TargetName="myMediaElement"  
+                 RepeatBehavior="Forever" />
+
+                                </Storyboard>
+                            </BeginStoryboard>
+                        </EventTrigger.Actions>
+                    </EventTrigger>
+                </MediaElement.Triggers>
+            </MediaElement>
+            <TextBlock Text="CAN YOU"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Top"
+                       Margin="0,133,0,0"
+                       FontSize="100"
                        FontFamily="Palatino Linotype"
                        >
                 <TextBlock.Foreground>
                     <SolidColorBrush Opacity="0.70" Color="Black"/>
                 </TextBlock.Foreground>
             </TextBlock>
-
+            <TextBlock Text="FEEL MY"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Top"
+                       Margin="0,217,0,0"
+                       FontSize="120"
+                       FontFamily="Palatino Linotype"
+                       >
+                <TextBlock.Foreground>
+                    <SolidColorBrush Opacity="0.70" Color="Black"/>
+                </TextBlock.Foreground>
+            </TextBlock>
+            <TextBlock Text="HEART"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Top"
+                       Margin="0,301,0,0"
+                       FontSize="170"
+                       FontFamily="Palatino Linotype"
+                       >
+                <TextBlock.Foreground>
+                    <SolidColorBrush Opacity="0.70" Color="RED"/>
+                </TextBlock.Foreground>
+            </TextBlock>
             <StackPanel>
                 <StackPanel Orientation="Vertical"
                                     HorizontalAlignment="Stretch"
-                                    Margin="0 394 240 0">
+                                    Margin="0 500 0 0">
 
                     <Button Content="1"
-                                Background="Transparent"
+                                Background="Gray"
+                            Opacity="0.3"
                                 Foreground="White"
                                 BorderBrush="White"
                                 Margin="0 0 0 0"
-                                Width="340" Click="Button_Click"
+                                Width="590" Click="Button_Click"
                                 />
                     <Button Content="2"
-                                Background="Transparent"
+                                Background="Gray"
+                            Opacity="0.3"
                                 Foreground="White"
                                 BorderBrush="White"
                                 Margin="0 10 0 0"
-                            Width="340">
+                            Width="590">
 
                     </Button>
                     <Button Content="3"
-                                Background="Transparent"
+                                Background="Gray"
+                            Opacity="0.3"
                                 Foreground="White"
                                 BorderBrush="White"
                                 Margin="0 10 0 0"
-                            Width="340"/>
+                            Width="590"/>
                     <Button Content="4"
-                                Background="Transparent"
+                                Background="Gray"
+                            Opacity="0.3"
                                 Foreground="White"
                                 BorderBrush="White"
                                 Margin="0 10 0 0"
-                            Width="340"/>
+                            Width="590"/>
                     <Button Content="5"
-                                Background="Transparent"
+                                Background="Gray"
+                            Opacity="0.3"
                                 Foreground="White"
                                 BorderBrush="White"
                                 Margin="0 10 0 0"
-                            Width="340"/>
+                            Width="590"/>
                 </StackPanel>
 
 
             </StackPanel>
+
         </Grid>
     </Border>
 
