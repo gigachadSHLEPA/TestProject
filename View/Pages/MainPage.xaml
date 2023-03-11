@@ -5,11 +5,13 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:TestProject.View.Pages"
       mc:Ignorable="d" 
-      d:DesignHeight="883" 
-      d:DesignWidth="617">
-    <Border>
+        d:DesignHeight="900"
+        d:DesignWidth="1480"
+      Title="MainPage">
+    <Border Width="617"
+            Height="883">
         <Grid>
-            <Image Source="/images/MainPage.png"/>
+            <Image Source="/images/MainPage.png" Stretch="UniformToFill"/>
             <TextBlock Text="Навигация"
                        HorizontalAlignment="Left"
                        VerticalAlignment="Center"
@@ -21,7 +23,7 @@
                     <SolidColorBrush Opacity="0.15" Color="Black"/>
                 </TextBlock.Foreground>
             </TextBlock>
-            
+
             <StackPanel>
                 <StackPanel Orientation="Vertical"
                                     HorizontalAlignment="Stretch"
@@ -40,7 +42,7 @@
                                 BorderBrush="White"
                                 Margin="0 10 0 0"
                             Width="340">
-                        
+
                     </Button>
                     <Button Content="3"
                                 Background="Transparent"
@@ -66,5 +68,5 @@
             </StackPanel>
         </Grid>
     </Border>
-    
+
 </Page>

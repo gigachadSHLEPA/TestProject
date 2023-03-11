@@ -10,8 +10,8 @@
         ResizeMode="NoResize"
         Background="Transparent"
         AllowsTransparency="True"
-        Height="890"
-        Width="620">
+        Height="900"
+        Width="1480">
     <Grid>
         <Frame x:Name="MainFrame"
                NavigationUIVisibility="Hidden"/>

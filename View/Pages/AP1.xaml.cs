@@ -24,5 +24,15 @@ namespace TestProject.View.Pages
         {
             InitializeComponent();
         }
+
+        private void BtnAnswer_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void BtnBack_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

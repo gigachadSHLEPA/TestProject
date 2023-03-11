@@ -5,31 +5,27 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:TestProject.View.Pages"
       mc:Ignorable="d" 
-      d:DesignHeight="500" d:DesignWidth="1080"
+      d:DesignHeight="900" d:DesignWidth="1480"
       Title="AP1">
 
-    <Border>
+    <Border Width="1080"
+            Height="500">
         <Grid>
-            <Image Source="/images/burzum.png"
-                   Height="1250"/>
-
-            <Image Source="/images/1.png" HorizontalAlignment="Right"
+            <Image Source="/images/burzum.png"/>
+            <StackPanel HorizontalAlignment="Right"
                                 VerticalAlignment="Top" Height="65" Width="239"
-                   Margin="0,100,211,0"
+                   Margin="0,100,211,0">
+                <Image Source="/images/1.png" 
                        />
+            </StackPanel>
+
 
 
             <StackPanel HorizontalAlignment="Center"
                                 VerticalAlignment="Top"
                                 Margin="0,235,0,0" RenderTransformOrigin="0.5,0.5" Height="260" Width="872">
-                <StackPanel.RenderTransform>
-                    <TransformGroup>
-                        <ScaleTransform/>
-                        <SkewTransform/>
-                        <RotateTransform Angle="-0.46"/>
-                        <TranslateTransform/>
-                    </TransformGroup>
-                </StackPanel.RenderTransform>
+
+
                 <StackPanel VerticalAlignment="Center"
                                     >
 
@@ -48,7 +44,32 @@
 
 
             </StackPanel>
-
+            <Button HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    x:Name="BtnBack"
+                    Margin="10,10,0,0"
+                    Click="BtnBack_Click"
+                    Background="Transparent"
+                     Foreground="#FFFFFF" Height="42" Width="79">
+                <TextBlock Text="←--"
+                                           FontSize="23"
+                                           Margin="0 0 0 0"/>
+            </Button>
+            <Button
+                            x:Name="Button"
+                                Foreground="#FFFFFF"
+                                Background="Black"
+                                BorderThickness="0"
+                                Click="BtnAnswer_Click" Width="40" Margin="1030,10,10,10" Opacity="0.70"
+                >
+                 
+                <StackPanel Orientation="Horizontal"
+                                    >
+                    <TextBlock Text="✓"
+                                           FontSize="22"
+                                           Margin="0 0 0 0"/>
+                </StackPanel>
+            </Button>
         </Grid>
     </Border>
 </Page>
