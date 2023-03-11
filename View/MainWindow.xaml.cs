@@ -26,7 +26,7 @@ namespace TestProject
         {
             InitializeComponent();
 
-            TestCoreFR.GoFrameTest = MainFrame;
+            TestCoreFR.MyCore = MainFrame;
             MainFrame.Navigate(new MainPage());
         }
     }

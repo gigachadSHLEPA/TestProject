@@ -9,8 +9,8 @@ namespace TestProject.Core
 {
     public static class TestCoreFR
     {
-        internal static object MyCore;
+        
 
-        public static Frame? GoFrameTest { get; set; }
+        public static Frame? MyCore { get; set; }
     }
 }

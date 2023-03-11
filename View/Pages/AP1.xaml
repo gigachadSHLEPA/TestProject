@@ -5,31 +5,33 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:TestProject.View.Pages"
       mc:Ignorable="d" 
-      d:DesignHeight="1243" d:DesignWidth="1080"
+      d:DesignHeight="500" d:DesignWidth="1080"
       Title="AP1">
 
     <Border>
         <Grid>
-            <Image Source="/images/burzum.png"/>
+            <Image Source="/images/burzum.png"
+                   Height="1250"/>
 
             <Image Source="/images/1.png" Margin="595,94,161,1080"
                        />
 
-            <StackPanel HorizontalAlignment="Left"
+
+            <StackPanel HorizontalAlignment="Center"
                                 VerticalAlignment="Top"
-                                Margin="280,635,0,0" RenderTransformOrigin="0.5,0.5">
+                                Margin="0,240,0,0" RenderTransformOrigin="0.5,0.5" Height="310" Width="872">
                 <StackPanel.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
                         <SkewTransform/>
-                        <RotateTransform Angle="-52.9"/>
+                        <RotateTransform Angle="-0.46"/>
                         <TranslateTransform/>
                     </TransformGroup>
                 </StackPanel.RenderTransform>
                 <StackPanel VerticalAlignment="Center"
                                     >
                     <TextBlock Text="Введите X:"
-                                       FontSize="30"
+                                       FontSize="165"
                                        FontFamily="Palatino Linotype"
                                        FontWeight="ExtraBlack"
                                        >
@@ -38,7 +40,7 @@
                         </TextBlock.Foreground>
                     </TextBlock>
 
-                    <TextBox x:Name="TbF2" Width="300" Height="35" Margin="0 0 0 0"/>
+                    <TextBox x:Name="TbF2" Width="900" Height="35" Margin="0 0 0 0"/>
                 </StackPanel>
 
 

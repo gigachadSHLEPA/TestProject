@@ -8,10 +8,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\burzum.png" />
     <None Remove="Images\MainPage.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Images\burzum.png" />
     <Resource Include="Images\MainPage.png" />
   </ItemGroup>
 
