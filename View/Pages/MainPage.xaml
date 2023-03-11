@@ -11,7 +11,11 @@
     <Border Width="617"
             Height="883">
         <Grid>
-            <MediaElement Source="/video/GIGACHAD ГИГАЧАД.mp4" LoadedBehavior="Play"/>
+            <MediaElement Source="/video/GIGACHAD ГИГАЧАД.mp4" LoadedBehavior="Play" Stretch="Uniform"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                UnloadedBehavior="Manual"
+                Visibility="Visible"/>
             <TextBlock Text="Навигация"
                        HorizontalAlignment="Left"
                        VerticalAlignment="Center"
