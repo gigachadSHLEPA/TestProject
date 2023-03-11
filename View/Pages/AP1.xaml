@@ -9,8 +9,11 @@
       Title="AP1">
 
     <Border Width="1080"
-            Height="500">
+            Height="500"
+            >
         <Grid>
+
+
             <Image Source="/images/burzum.png"/>
             <StackPanel HorizontalAlignment="Right"
                                 VerticalAlignment="Top" Height="65" Width="239"
@@ -33,6 +36,7 @@
                                        FontSize="165"
                                        FontFamily="Palatino Linotype"
                                        FontWeight="ExtraBlack"
+                               
                                        >
                         <TextBlock.Foreground>
                             <SolidColorBrush Opacity="0.70" Color="Black"/>
@@ -60,13 +64,13 @@
                                 Foreground="#FFFFFF"
                                 Background="Black"
                                 BorderThickness="0"
-                                Click="BtnAnswer_Click" Width="40" Margin="1030,10,10,10" Opacity="0.70"
+                                Click="BtnAnswer_Click" Margin="986,458,34,10" Opacity="0.55"
                 >
-                 
+
                 <StackPanel Orientation="Horizontal"
                                     >
                     <TextBlock Text="✓"
-                                           FontSize="22"
+                                           FontSize="10"
                                            Margin="0 0 0 0"/>
                 </StackPanel>
             </Button>

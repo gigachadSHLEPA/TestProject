@@ -11,7 +11,7 @@
     <Border Width="617"
             Height="883">
         <Grid>
-            <Image Source="/images/MainPage.png" Stretch="UniformToFill"/>
+            <MediaElement Source="/video/GIGACHAD ГИГАЧАД.mp4" LoadedBehavior="Play"/>
             <TextBlock Text="Навигация"
                        HorizontalAlignment="Left"
                        VerticalAlignment="Center"
@@ -20,7 +20,7 @@
                        FontFamily="Palatino Linotype"
                        >
                 <TextBlock.Foreground>
-                    <SolidColorBrush Opacity="0.15" Color="Black"/>
+                    <SolidColorBrush Opacity="0.70" Color="Black"/>
                 </TextBlock.Foreground>
             </TextBlock>
 

@@ -24,4 +24,13 @@
     <Resource Include="Images\MainPage.png" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="video\GIGACHAD ГИГАЧАД.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="video\Video by Savehouse %2854+%29.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
