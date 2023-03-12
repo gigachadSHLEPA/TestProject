@@ -18,7 +18,7 @@
             <StackPanel HorizontalAlignment="Right"
                                 VerticalAlignment="Top" Height="65" Width="239"
                    Margin="0,100,220,0">
-                <Image Source="/images/6.jpg" Height="63" Width="228" 
+                <Image Source="/images/7.jpg" Height="63" Width="228" 
                        />
             </StackPanel>
 
