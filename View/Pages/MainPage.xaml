@@ -108,21 +108,21 @@
                                 Foreground="White"
                                 BorderBrush="White"
                                 Margin="0 10 0 0"
-                            Width="590" FontFamily="Palatino Linotype"/>
+                            Width="590" FontFamily="Palatino Linotype" Click="Button_Click_4"/>
                     <Button Content="6"
                                 Background="Gray"
                             Opacity="0.3"
                                 Foreground="White"
                                 BorderBrush="White"
                                 Margin="0 10 0 0"
-                            Width="590" FontFamily="Palatino Linotype"/>
+                            Width="590" FontFamily="Palatino Linotype" Click="Button_Click_5"/>
                     <Button Content="7"
                                 Background="Gray"
                             Opacity="0.3"
                                 Foreground="White"
                                 BorderBrush="White"
                                 Margin="0 10 0 0"
-                            Width="590" FontFamily="Palatino Linotype"
+                            Width="590" FontFamily="Palatino Linotype" Click="Button_Click_6"
                             />
                 </StackPanel>
 

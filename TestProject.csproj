@@ -12,6 +12,9 @@
     <None Remove="Images\2.jpg" />
     <None Remove="Images\3.jpg" />
     <None Remove="Images\4.jpg" />
+    <None Remove="Images\5.jpg" />
+    <None Remove="Images\6.jpg" />
+    <None Remove="Images\7.jpg" />
     <None Remove="Images\burzum.png" />
     <None Remove="Images\MainPage.png" />
     <None Remove="video\GIGACHAD ГИГАЧАД.mp4" />
@@ -27,6 +30,9 @@
     <Resource Include="Images\2.jpg" />
     <Resource Include="Images\3.jpg" />
     <Resource Include="Images\4.jpg" />
+    <Resource Include="Images\5.jpg" />
+    <Resource Include="Images\6.jpg" />
+    <Resource Include="Images\7.jpg" />
     <Resource Include="Images\burzum.png" />
     <Resource Include="Images\MainPage.png" />
     <Content Include="video\GIGACHAD ГИГАЧАД.mp4">

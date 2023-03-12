@@ -17,11 +17,11 @@ using TestProject.Core;
 namespace TestProject.View.Pages
 {
     /// <summary>
-    /// Логика взаимодействия для AP4.xaml
+    /// Логика взаимодействия для AP7.xaml
     /// </summary>
-    public partial class AP4 : Page
+    public partial class AP7 : Page
     {
-        public AP4()
+        public AP7()
         {
             InitializeComponent();
         }
@@ -36,26 +36,26 @@ namespace TestProject.View.Pages
             try
             {
                 double x = Convert.ToDouble(TbF2.Text);
-                double a1 = 3.2;
-                double a2 = 10.5;
-                double a3 = 5.4;
-                double b1 = -0.7;
-                double b2 = -2.5;
-                double b3 = 3;
-                double c1 = 2.2;
-                double c2 = 5.6;
-                double c3 = 2.6;
-                if (Math.Abs(1 - Math.Pow(x, 2)) == a1 + c1)
+                double a1 = 0.1;
+                double a2 = 10;
+                double a3 = 100;
+                double b1 = 9.8;
+                double b2 = 10.05;
+                double b3 = 3.03;
+                double z1 = 11.12;
+                double z2 = 6.2;
+                double z3 = 7.12;
+                if (Math.Log10(a1) < x)
                 {
-                    MessageBox.Show($"y = {x * Math.Exp(a1) + Math.Exp(Math.Abs(b1 * c1))}");
+                    MessageBox.Show($"y = {Math.Pow(Math.Sqrt(Math.Pow(b1,2) + Math.Sqrt(Math.Abs(x + z1))),3)}");
                 }
-                if (Math.Abs(1 - Math.Pow(x, 2)) > a2 + c2)
+                if (Math.Log10(a2) == x)
                 {
-                    MessageBox.Show($"y = {Math.Pow(Math.Sin(a2 * x), 2) + Math.Cos(b2 * c2)}");
+                    MessageBox.Show($"y = {Math.Cos(x - b2 - z2)}");
                 }
-                if (Math.Abs(1 - Math.Pow(x, 2)) < a3 + c3)
+                if (Math.Log10(a3) > x)
                 {
-                    MessageBox.Show($"y = {Math.Sqrt(a3 * Math.Pow(b3, 4) + Math.Pow(Math.Sqrt(c3 * Math.Pow(x, 3)), 5))}");
+                    MessageBox.Show($"y = {Math.Sin(x + a3 - b3)}");
                 }
 
             }
