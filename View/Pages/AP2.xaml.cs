@@ -48,7 +48,7 @@ namespace TestProject.View.Pages
                 {
                     MessageBox.Show($"y = {Math.Atan(a2 * b2 * c3) + Math.Pow(Math.Sqrt(x), 3)}");
                 }
-                if (Math.Exp(a1 + b1) < Math.Exp(x))
+                if (Math.Exp(a3 + b3) < Math.Exp(x))
                 {
                     MessageBox.Show($"y = {Math.Cos(Math.Sqrt(Math.Abs(x + a3 * b3 * c3)))}");
                 }

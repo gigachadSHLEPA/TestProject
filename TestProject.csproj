@@ -11,6 +11,7 @@
     <None Remove="Images\1.png" />
     <None Remove="Images\2.jpg" />
     <None Remove="Images\3.jpg" />
+    <None Remove="Images\4.jpg" />
     <None Remove="Images\burzum.png" />
     <None Remove="Images\MainPage.png" />
     <None Remove="video\GIGACHAD ГИГАЧАД.mp4" />
@@ -25,6 +26,7 @@
     <Resource Include="Images\1.png" />
     <Resource Include="Images\2.jpg" />
     <Resource Include="Images\3.jpg" />
+    <Resource Include="Images\4.jpg" />
     <Resource Include="Images\burzum.png" />
     <Resource Include="Images\MainPage.png" />
     <Content Include="video\GIGACHAD ГИГАЧАД.mp4">

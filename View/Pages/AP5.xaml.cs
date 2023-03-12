@@ -17,11 +17,11 @@ using TestProject.Core;
 namespace TestProject.View.Pages
 {
     /// <summary>
-    /// Логика взаимодействия для AP3.xaml
+    /// Логика взаимодействия для AP5.xaml
     /// </summary>
-    public partial class AP3 : Page
+    public partial class AP5 : Page
     {
-        public AP3()
+        public AP5()
         {
             InitializeComponent();
         }
@@ -36,26 +36,26 @@ namespace TestProject.View.Pages
             try
             {
                 double x = Convert.ToDouble(TbF2.Text);
-                double a1 = -5;
-                double a2 = 3;
-                double a3 = -10;
-                double b1 = 5.3;
-                double b2 = 1.8;
-                double b3 = -0.6;
-                double z1 = Math.Log10(Math.Abs(b1 * Math.Pow(x, 3)));
-                double z2 = Math.Log10(Math.Abs(b2 * x));
-                double z3 = Math.Log10(Math.Abs(b3 * Math.Pow(x,2)));
-                if (x < a1)
+                double k1 = 3.1;
+                double k2 = 0.78;
+                double k3 = 1.1;
+                double m1 = 5.15;
+                double m2 = -2.4;
+                double m3 = 4.36;
+                double n1 = -1.15;
+                double n2 = 4.36;
+                double n3 = 0.41;
+                if (Math.Pow(x,2) > m1 + n1)
                 {
-                    MessageBox.Show($"y = {2.8 * Math.Pow(Math.Sin(a1 * x),2) - b1 * Math.Pow(x,3) * z1}");
+                    MessageBox.Show($"y = {Math.Log10(Math.Abs(m1 * x + n1))}");
                 }
-                if (x >= a2 && x <= Math.Pow(b2,2))
+                if (Math.Pow(x, 2) > m2 + n2)
                 {
-                    MessageBox.Show($"y = {z2 * Math.Pow(Math.Cos(a2 * x + b2), 2) +  Math.Log10(z2)}");
+                    MessageBox.Show($"y = {Math.Exp(Math.Cos(Math.Abs(m2 * x - n2)))}");
                 }
-                if (x > Math.Pow(b3,2))
+                if (Math.Pow(x, 2) > m3 + n3)
                 {
-                    MessageBox.Show($"y = {Math.Exp(2.5 * a3 * x) + z3 * a3 * b3 * x}");
+                    MessageBox.Show($"y = {Math.Pow(Math.Sqrt(Math.Pow(k3,2) + Math.Pow(Math.Cos(x),2)),3)}");
                 }
 
             }

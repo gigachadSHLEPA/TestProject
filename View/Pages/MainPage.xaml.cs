@@ -42,5 +42,15 @@ namespace TestProject.View.Pages
         {
             TestCoreFR.MyCore?.Navigate(new AP2());
         }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            TestCoreFR.MyCore?.Navigate(new AP3());
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            TestCoreFR.MyCore?.Navigate(new AP4());
+        }
     }
 }
