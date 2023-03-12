@@ -37,5 +37,10 @@ namespace TestProject.View.Pages
             mediaElement.Stop();
             mediaElement.Play();
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            TestCoreFR.MyCore?.Navigate(new AP2());
+        }
     }
 }
